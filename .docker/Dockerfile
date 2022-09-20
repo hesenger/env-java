@@ -1,4 +1,4 @@
-FROM openjdk:18.0.2.1-slim-bullseye
+FROM gradle:jdk18-jammy
 
 RUN useradd -s /bin/bash -m vscode
 RUN groupadd docker && usermod -aG docker vscode
